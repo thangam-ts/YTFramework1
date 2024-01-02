@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-12-18T13:33:48 EST" name="Default suite" finished-at="2023-12-18T13:37:09 EST" duration-ms="201744">
+    <groups>
+    </groups>
+    <test started-at="2023-12-18T13:33:48 EST" name="Default test" finished-at="2023-12-18T13:37:09 EST" duration-ms="201744">
+      <class name="org.testing.TestScripts.TC1">
+        <test-method is-config="true" signature="browserLaunch()[pri:0, instance:org.testing.TestScripts.TC1@741a8937]" started-at="2023-12-18T13:33:48 EST" name="browserLaunch" finished-at="2023-12-18T13:34:14 EST" duration-ms="26298" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserLaunch -->
+        <test-method is-config="true" signature="tc1()[pri:0, instance:org.testing.TestScripts.TC1@741a8937]" started-at="2023-12-18T13:34:14 EST" name="tc1" finished-at="2023-12-18T13:35:24 EST" duration-ms="69666" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc1 -->
+        <test-method signature="trending_click()[pri:0, instance:org.testing.TestScripts.TC1@741a8937]" started-at="2023-12-18T13:35:24 EST" name="trending_click" finished-at="2023-12-18T13:36:28 EST" duration-ms="64810" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- trending_click -->
+        <test-method is-config="true" signature="tc1_logout()[pri:0, instance:org.testing.TestScripts.TC1@741a8937]" started-at="2023-12-18T13:36:28 EST" name="tc1_logout" finished-at="2023-12-18T13:37:09 EST" duration-ms="40708" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc1_logout -->
+        <test-method is-config="true" signature="closeSession()[pri:0, instance:org.testing.TestScripts.TC1@741a8937]" started-at="2023-12-18T13:37:09 EST" name="closeSession" finished-at="2023-12-18T13:37:09 EST" duration-ms="209" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeSession -->
+      </class> <!-- org.testing.TestScripts.TC1 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
