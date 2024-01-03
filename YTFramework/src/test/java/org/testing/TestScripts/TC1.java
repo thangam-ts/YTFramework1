@@ -18,9 +18,9 @@ import org.testing.utilities.Report;
 import org.testing.utilities.ScreenshotCapture;
 
 public class TC1 extends BaseLaunchTest {
-	ExtentReports ex= Report.HandleReport();
-	ExtentTest extentTest=ex.startTest("TestCase1");
-	
+//	ExtentReports ex= Report.HandleReport();
+//	ExtentTest extentTest=ex.startTest("TestCase1");
+//	
 	@BeforeClass
 	public void tc1() throws Exception{
 		LoginPage login = new LoginPage(driver,pr);
@@ -31,9 +31,10 @@ public class TC1 extends BaseLaunchTest {
 	}
 
 	@Test(priority=0)
- public void trending_click() throws Exception{
+    public void trending_click() throws Exception{
 		HomePage home = new HomePage(driver,pr);
 		home.trendingSelect();
+		ScreenshotCapture.takeScreenShot(driver, "/Users/thangam/Downloads/Screenshots/tc1.1.png");
 		LogsCapture.takeLog("TestCase1","Trending Selected");
 	
 	}
@@ -45,9 +46,9 @@ public class TC1 extends BaseLaunchTest {
 		LogsCapture.takeLog("TestCase1", "SignOut Complete");
 	System.out.println("Succesfully driver closed");
 	
-	extentTest.log(LogStatus.PASS, "Test Case1 is Passed");
-	ex.endTest(extentTest);
-	ex.flush(); // For Saving the Data
+//	extentTest.log(LogStatus.PASS, "Test Case1 is Passed");
+//	ex.endTest(extentTest);
+//	ex.flush(); // For Saving the Data
 	}
 
 }

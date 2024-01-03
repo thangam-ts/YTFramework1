@@ -29,10 +29,10 @@ public void yt() throws InterruptedException {
 	driver.manage().window().maximize();
 	Thread.sleep(3000);
 	
-//	//Subscriptions
-//	WebElement sub = driver.findElement(By.linkText("Subscriptions"));
-//	sub.click();
-//	driver.navigate().back();
+	//Subscriptions
+	WebElement sub = driver.findElement(By.linkText("Subscriptions"));
+	sub.click();
+	driver.navigate().back();
 //	
 //	//Trending
 //	WebElement trend = driver.findElement(By.linkText("Trending"));
@@ -59,11 +59,11 @@ public void yt() throws InterruptedException {
 //	pwdNextButton.click();
 //	System.out.println("Password Entered");
 //	
-	//Click Videos
-	Thread.sleep(6000);
-	WebElement video= driver.findElement(By.xpath("(//yt-formatted-string[@id='video-title'])[3]"));
-	video.click();
-	System.out.println("Video Clicked");
+//	//Click Videos
+//	Thread.sleep(6000);
+//	WebElement video= driver.findElement(By.xpath("(//yt-formatted-string[@id='video-title'])[3]"));
+//	video.click();
+//	System.out.println("Video Clicked");
 	
 
 	//Log Out of YT

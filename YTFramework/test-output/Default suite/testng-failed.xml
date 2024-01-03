@@ -3,15 +3,15 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="org.testing.TestScripts.TC6">
+      <class name="org.testing.TestScripts.TC1">
         <methods>
           <include name="closeSession"/>
+          <include name="tc1"/>
           <include name="browserLaunch"/>
-          <include name="tc4_login"/>
-          <include name="tc4_logout"/>
-          <include name="videoComment"/>
+          <include name="tc1_logout"/>
+          <include name="trending_click"/>
         </methods>
-      </class> <!-- org.testing.TestScripts.TC6 -->
+      </class> <!-- org.testing.TestScripts.TC1 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
