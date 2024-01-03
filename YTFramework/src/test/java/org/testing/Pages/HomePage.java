@@ -22,7 +22,20 @@ public class HomePage {
 		Thread.sleep(5000);
 		trending.click();
 		System.out.println("Trending click Test succesfull");
+		
 	}
+	
+	//Clicking on History 
+		public void historySelect() throws InterruptedException {	
+			System.out.println("History Section Found");
+			Thread.sleep(10000);	
+			WebElement history = driver.findElement(By.xpath(pr.getProperty("history")));
+			Thread.sleep(5000);
+			history.click();
+			System.out.println("History click Test succesfull");
+			
+		}	
+	
 	
 	//Clicking on Subscription
 		public void subscriptionSelect() throws InterruptedException {	
